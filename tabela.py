@@ -1,11 +1,11 @@
 
 import pymysql
 conexao =pymysql.connect(
-        host='localhost',
-        user='root',
-        passwd='',
-        database='cadastroalunos',
-     
+        host='banco',
+        user='usuario',
+        passwd='senha',
+        database='base de dados',
+                       
 )
 conn = conexao.cursor()
 # Definir o comando SQL para criar a tabela
